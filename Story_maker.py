@@ -41,7 +41,7 @@ def printinfo(character1_name_value,character1_type_value,character2_name_value,
         style of that artist."
         while len(image_prompts) == 0:
             print("Making ChatGPT request")
-            openai.api_key = "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" ### PUT YOUR API KEY HERE
+            openai.api_key = "Openaikey" ### PUT YOUR API KEY HERE
             ChatGPT_output = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "system",
