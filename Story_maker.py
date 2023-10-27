@@ -62,7 +62,7 @@ def printinfo(character1_name_value,character1_type_value,character2_name_value,
             image_prompt += f"{char1_name} is {char1_type} and {char2_name} is{char2_type}. They are {venue_val}."
             print(f"Generating image {number}")
             r = requests.post("https://api.deepai.org/api/text2img", data={'text': image_prompt,'negative_prompt': "poorly drawn face, mutation, deformed, distorted face,extra limbs, bad anatomy",'width': "720", 'height': "720",'grid_size': "1"},
-            headers={'api-key': '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'} ### PUT YOUR API KEY HERE
+            headers={'api-key': 'DeepAI key'} ### PUT YOUR API KEY HERE
             )
             image_url = (r.json()["output_url"])
             print(f"Image {number} is at {image_url}.Saving now...\n\n")
