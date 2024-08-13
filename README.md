@@ -12,3 +12,5 @@ openai key = $5 ,
 DeepAI key = $5,
 
 Raspberry_pi 4 
+
+video link == https://drive.google.com/file/d/1bVxwl71TMpIPxc--zj1FjfkJdQqhUbJK/view?usp=sharing
