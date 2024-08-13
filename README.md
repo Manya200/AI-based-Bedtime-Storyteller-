@@ -6,6 +6,9 @@ A unique application that generates personalized bedtime stories using ChatGPT. 
 
 
 cost:
-openai key = $5 
-DeepAI key = $5
+
+openai key = $5 ,
+
+DeepAI key = $5,
+
 Raspberry_pi 4 
